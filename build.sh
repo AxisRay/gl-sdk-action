@@ -18,6 +18,9 @@ git config --global user.name "aa"
 mkdir -p  ${WORKDIR}/buildsource
 cd  ${WORKDIR}/buildsource
 git clone "$SOURCECODEURL"
+cp OpenClash/luci-app-openclash ../
+rm OpenClash -rf
+
 cd  ${WORKDIR}
 
 
